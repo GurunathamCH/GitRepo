@@ -1,0 +1,31 @@
+package smp;
+class thisExp
+{
+//this keyword====used to refer current class object	
+	
+	int a=10,b=20;
+	
+	public void add(int a,int b)
+	{System.out.println(a);
+	System.out.println(b);
+		
+		
+	}
+	public void ChangeValues()
+	{System.out.println("before update a value:"+a+" b vaue:"+b);
+		a=40;
+		b=50;
+		
+		System.out.println("after update a value:"+a+" b vaue:"+b);
+	}
+}
+public class aaa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		thisExp t=new thisExp();
+		//t.ChangeValues();
+		t.add(3,4);
+	}
+
+}

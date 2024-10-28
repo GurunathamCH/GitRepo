@@ -1,0 +1,21 @@
+package ifCondition;
+
+
+class ifconditionTypes
+{
+//if(True)
+//if else(True or false)
+//else if(Multiple conditions)
+//nested if(Multiple internal conditions)
+
+
+}
+
+public class IfConditions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

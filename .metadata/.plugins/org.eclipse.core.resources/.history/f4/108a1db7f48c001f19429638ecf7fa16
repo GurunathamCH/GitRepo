@@ -1,0 +1,29 @@
+package smp;
+
+
+class Con
+{
+	
+public void add()//normal method
+
+{
+	
+
+}
+public void Con()//default constructor
+{
+	
+
+}
+
+
+}
+
+public class constructors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

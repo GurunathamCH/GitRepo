@@ -1,0 +1,32 @@
+package smp;
+class thisExp
+{
+//this keyword====used to refer current class object	
+	
+	int a=10,b=20;//class level variable
+	
+	public void add(int a,int b)//method parameters
+	{System.out.println(a);
+	System.out.println(b);
+	this.a=a;   //store input value into class level variable a
+		
+		
+	}
+	public void ChangeValues()
+	{System.out.println("before update a value:"+a+" b vaue:"+b);
+		a=40;
+		b=50;
+		
+		System.out.println("after update a value:"+a+" b vaue:"+b);
+	}
+}
+public class aaa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		thisExp t=new thisExp();
+		//t.ChangeValues();
+		t.add(3,4);
+	}
+
+}

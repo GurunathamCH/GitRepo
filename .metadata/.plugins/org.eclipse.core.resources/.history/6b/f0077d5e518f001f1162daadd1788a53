@@ -1,0 +1,30 @@
+package smp;
+class COPY
+{
+	int Rollnumber;
+	String Name;
+	COPY(int Rollnumber,String Name)
+	{
+		
+		this.Rollnumber=Rollnumber;
+		this.Name=Name;
+	}
+	
+	COPY(COPY O2)
+	{
+		
+		this.Rollnumber=O2.Rollnumber;
+		this.Name=O2.Name;
+	}
+	
+
+
+}
+public class COPYCon {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

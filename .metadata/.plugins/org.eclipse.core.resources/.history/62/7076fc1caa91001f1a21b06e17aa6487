@@ -1,0 +1,32 @@
+package ifCondition;
+
+
+class ifconditionTypes
+{
+	int a=10,b=20;
+//if(True)
+//if else(True or false)
+//else if(Multiple conditions)
+//nested if(Multiple internal conditions)
+void DisplayBigNumber()
+{
+	
+if(b>a)
+{//T
+	System.out.println("b is big");
+
+}
+
+}
+
+}
+
+public class IfConditions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stubI
+		ifconditionTypes it=new ifconditionTypes();
+		it.DisplayBigNumber();
+	}
+
+}
