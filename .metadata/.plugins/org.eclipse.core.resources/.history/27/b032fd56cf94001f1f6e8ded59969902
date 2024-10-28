@@ -8,7 +8,7 @@ public class NestedIf {
 //else the number is divisible by 3 or not		
 		
 		
-		int a=13;
+		int a=12;
 		
 		if(a%2==0)
 			
@@ -35,14 +35,14 @@ public class NestedIf {
 			System.out.println("odd");
 			
 			
-			if(a%3!=0)
+			if(a%3==0)
 			{
 				
-				System.out.println(a+" is not divisible by 3");
+				System.out.println(a+" is divisible by 3");
 			}
 			else
 			{
-				System.out.println(a+" is divisible by 3");
+				System.out.println(a+" is not divisible by 3");
 				
 			}
 		}

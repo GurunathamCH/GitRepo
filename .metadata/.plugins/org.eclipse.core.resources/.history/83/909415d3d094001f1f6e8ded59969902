@@ -1,0 +1,43 @@
+package SwitchCase;
+
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		
+		//Display Week Day name bases on given number
+		// TODO Auto-generated method stub
+int a=1;
+switch(4)
+   	{
+case 1:
+	System.out.println("Monday");
+	break;
+case 2:
+	System.out.println("Tuesday");
+	break;
+case 3:
+	System.out.println("Wedns Day");
+	break;
+	
+	
+case 4:
+	System.out.println("Trues Day");
+	break;
+	
+case 5:
+	System.out.println("Friday");
+	break;
+case 6:
+	System.out.println("Sat Day");
+	break;
+case 7:
+	System.out.println("Sunday");
+	break;
+	
+default:
+	System.out.println("please enter number between 1 to 7");
+		
+   	}
+	}
+
+}
