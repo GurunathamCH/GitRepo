@@ -3162,3 +3162,12 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2025-02-26 10:05:32,130 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\main\resources
 2025-02-26 10:05:32,132 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-02-26 10:05:32,133 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\test\resources
+2025-02-26 10:19:26,569 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Final\Repo\TestPro\pom.xml
+2025-02-26 10:19:37,704 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestProject:TestPro:0.0.1-SNAPSHOT @ D:\Final\Repo\TestPro\pom.xml.
+2025-02-26 10:19:38,135 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TestPro/src/main/java
+2025-02-26 10:19:38,148 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TestPro/src/test/java
+2025-02-26 10:19:38,288 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2025-02-26 10:19:38,925 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:19:38,925 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\TestPro\src\main\resources
+2025-02-26 10:19:38,926 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:19:38,927 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\TestPro\src\test\resources
