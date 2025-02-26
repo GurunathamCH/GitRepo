@@ -26,6 +26,5 @@ public class ActionDoubleClick extends GenericMethods{
 	     //a.doubleClick(FindWebElemenetByXpath("//*[@id='searchBtn']")).build().perform();//Double Click
 	     //a.clickAndHold(FindWebElemenetByXpath("//*[@id='searchBtn']")).build().perform();
 	     System.out.println("hi");
-	     System.out.println("hi");
 	}
 }
