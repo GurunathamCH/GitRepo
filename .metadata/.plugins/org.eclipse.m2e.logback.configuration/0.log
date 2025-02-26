@@ -3228,3 +3228,12 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2025-02-26 10:45:53,032 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\GitRepoPro\src\main\resources
 2025-02-26 10:45:53,034 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-02-26 10:45:53,034 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\GitRepoPro\src\test\resources
+2025-02-26 10:57:22,891 [Worker-41] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Final\Repo\GitRepo1\pom.xml
+2025-02-26 10:57:23,076 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: GitRepoProject1:GitRepo1:0.0.1-SNAPSHOT @ D:\Final\Repo\GitRepo1\pom.xml.
+2025-02-26 10:57:23,289 [Worker-41] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GitRepo1/src/main/java
+2025-02-26 10:57:23,302 [Worker-41] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GitRepo1/src/test/java
+2025-02-26 10:57:23,357 [Worker-41] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2025-02-26 10:57:23,803 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:57:23,804 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\GitRepo1\src\main\resources
+2025-02-26 10:57:23,813 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:57:23,813 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\GitRepo1\src\test\resources
