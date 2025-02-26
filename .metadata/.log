@@ -605,3 +605,44 @@ Caused by: java.io.IOException: Pipe closed
 	at org.eclipse.jgit.transport.BasePackPushConnection.writePack(BasePackPushConnection.java:306)
 	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:198)
 	... 8 more
+
+!ENTRY org.eclipse.egit.core 4 0 2025-02-26 10:22:16.197
+!MESSAGE An exception occurred during push on URI file:///C:\Users\HP\git\final: file:///C:\Users\HP\git\final: Pipe closed
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: file:///C:\Users\HP\git\final: Pipe closed
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:164)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:228)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.jgit.errors.TransportException: file:///C:\Users\HP\git\final: Pipe closed
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:218)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:153)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:166)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1200)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:157)
+	... 4 more
+Caused by: java.io.IOException: Pipe closed
+	at java.io.PipedInputStream.checkStateForReceive(Unknown Source)
+	at java.io.PipedInputStream.receive(Unknown Source)
+	at java.io.PipedOutputStream.write(Unknown Source)
+	at org.eclipse.jgit.util.io.TimeoutOutputStream.write(TimeoutOutputStream.java:113)
+	at org.eclipse.jgit.internal.storage.pack.PackOutputStream.write(PackOutputStream.java:126)
+	at org.eclipse.jgit.internal.storage.pack.PackOutputStream.writeFileHeader(PackOutputStream.java:144)
+	at org.eclipse.jgit.internal.storage.pack.PackWriter.writePack(PackWriter.java:995)
+	at org.eclipse.jgit.transport.BasePackPushConnection.writePack(BasePackPushConnection.java:306)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:198)
+	... 8 more
+
+!ENTRY org.eclipse.egit.core 4 0 2025-02-26 10:23:14.469
+!MESSAGE An exception occurred during push on URI file:///D:\Final\Repo\TestPro: file:///D:\Final\Repo\TestPro: not found.
+!STACK 0
+org.eclipse.jgit.errors.NoRemoteRepositoryException: file:///D:\Final\Repo\TestPro: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:131)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:106)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:561)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:532)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:192)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog$17.run(SimpleConfigurePushDialog.java:588)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
