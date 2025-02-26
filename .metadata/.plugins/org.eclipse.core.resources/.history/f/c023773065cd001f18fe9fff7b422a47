@@ -1,0 +1,14 @@
+package ModularDrivenFramework;
+
+import Utilities.GenericMethods;
+
+public class Home extends GenericMethods{
+	public void OpenBrowser()
+	{OpenBrowser("Chrome");
+		
+	}
+	public void NavigateToURL()
+	{
+		NavigateToURL("https://www.demoblaze.com");
+	}
+}

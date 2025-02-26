@@ -1,0 +1,29 @@
+package DataDrivenFrameWork;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import Utilities.GenericMethods;
+
+public class Signup extends GenericMethods{
+	FileInputStream FIS;
+	FileOutputStream FOS;
+	XSSFWorkbook WOB;
+	XSSFSheet SOS;
+	Row r;
+	@Test(priority=0)
+	public void SignUp() throws InterruptedException
+	{
+		
+	   OpenBrowser("Chrome"); 
+	   NavigateToURL("https://www.demoblaze.com/");
+	   ClickOnWebElement(FindWebElemenetByXpath("//*[@id='signin2']"));
+	   
+	}
+}

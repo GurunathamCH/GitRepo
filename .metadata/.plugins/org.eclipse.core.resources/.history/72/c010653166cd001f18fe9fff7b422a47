@@ -1,0 +1,22 @@
+package TestScripts;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class ECOMMERCETest {
+ModularDrivenFramework.Home home=new ModularDrivenFramework.Home();
+SoftAssert sa=new SoftAssert();
+
+@Test(priority=0)
+public void VerifyUserNavigatingToWebsiteOrNot()
+{
+	home.AnyOpenBrowser("Chrome");
+	home.NavigateAnyURL("https://www.demoblaze.com");
+	String ExpectedPageTitle="STORE";
+	String ActutalPageTitle=home.GetPageTitle();
+	System.out.println(ActutalPageTitle);
+	sa.assertEquals(ExpectedPageTitle, ActutalPageTitle);
+	sa.assertAll();
+}
+
+}

@@ -1,0 +1,24 @@
+package ExcelOperations;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class GetDataFromExcel {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+FileInputStream FIS=new FileInputStream("D:\\Final\\Repo\\Horama\\TestData\\UserData.xlsx");
+//XSSFWorkbook
+XSSFWorkbook WOB=new XSSFWorkbook(FIS); //Connect with Excel
+XSSFSheet WOS=WOB.getSheet("Shee1");
+
+
+	}
+
+}

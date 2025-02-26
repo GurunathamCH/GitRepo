@@ -4,7 +4,7 @@ class DisplayDayNumber
 {
 	public void DispayNumberBasedOnDay()
 	{
-		String day="Tuesd";
+		String day="Tuesday";
 		switch(day)
 		{
 		case "Monday":

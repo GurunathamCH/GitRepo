@@ -1,0 +1,14 @@
+package ModularDrivenFramework;
+
+import Utilities.GenericMethods;
+
+public class Home extends GenericMethods{
+	public void AnyOpenBrowser(String BrowserName)
+	{OpenBrowser(BrowserName);
+		
+	}
+	public void NavigateAnyURL(String URL)
+	{
+		NavigateToURL(URL);
+	}
+}

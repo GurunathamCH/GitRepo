@@ -1,0 +1,13 @@
+package ModularDrivenFramework;
+
+import Utilities.GenericMethods;
+
+public class Signup extends GenericMethods{
+
+	public void SignUpIntoWebsite(String UserName,String Password)
+{
+	ClickOnWebElement(FindWebElemenetByXpath("//*[@id='signin2']"));
+	
+
+}
+}

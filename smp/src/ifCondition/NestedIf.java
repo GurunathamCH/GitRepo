@@ -8,7 +8,9 @@ public class NestedIf {
 //else the number is divisible by 3 or not		
 		
 		
-		int a=13;
+		
+		
+		int a=22;
 		
 		if(a%2==0)
 			

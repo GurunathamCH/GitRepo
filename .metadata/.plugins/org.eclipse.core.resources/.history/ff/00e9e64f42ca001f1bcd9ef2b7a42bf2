@@ -1,0 +1,17 @@
+package TestNG;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties; 
+
+
+import org.testng.annotations.Test;
+
+public class GetDataFromPropertiesFile {
+@Test
+public void GetDataFromPropertiesFiles() throws FileNotFoundException
+{
+	
+	FileInputStream fis=new FileInputStream("D:\\Final\\Repo\\Horama\\src\\main\\java\\Credentials.properties"); 
+	Properties pos=new Properties(fis);
+}
+}

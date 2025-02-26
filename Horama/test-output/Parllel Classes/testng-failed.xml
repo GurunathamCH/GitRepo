@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parllel Classes]">
+  <test thread-count="5" name="Prallel Classes Test(failed)" parallel="classes">
+    <classes>
+      <class name="HomeScreen.TutorialsDemo">
+        <methods>
+          <include name="DeSelectStateRajastanandCityAgra"/>
+        </methods>
+      </class> <!-- HomeScreen.TutorialsDemo -->
+    </classes>
+  </test> <!-- Prallel Classes Test(failed) -->
+</suite> <!-- Failed suite [Parllel Classes] -->

@@ -1,0 +1,12 @@
+package ModularDrivenFramework;
+
+public class Home {
+	public void OpenBrowser()
+	{
+		
+	}
+	public void NavigateToURL()
+	{
+		
+	}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser Testing]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="BrowserName" value="Edge"/>
+    <classes>
+      <class name="TestNG.BeforeTestAfterTest">
+        <methods>
+          <include name="NvigateToURL"/>
+          <include name="VerifyGenderRadioButtonDisplayingOrNot"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- TestNG.BeforeTestAfterTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [CrossBrowser Testing] -->

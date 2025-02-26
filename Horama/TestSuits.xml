@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Radio Buttons test">
+  
+  <test thread-count="5" name=" Verify RadioButoon Displayed or not">
+    <classes>
+       <class name="TestNG.BeforeTestAfterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
