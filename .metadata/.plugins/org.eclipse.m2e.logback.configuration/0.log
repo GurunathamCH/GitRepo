@@ -3154,3 +3154,11 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2025-01-10 08:16:33,577 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\main\resources
 2025-01-10 08:16:33,583 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-01-10 08:16:33,586 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\test\resources
+2025-02-26 10:05:30,145 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:05:30,152 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\main\resources
+2025-02-26 10:05:30,185 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:05:30,185 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\test\resources
+2025-02-26 10:05:32,128 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:05:32,130 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\main\resources
+2025-02-26 10:05:32,132 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-26 10:05:32,133 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final\Repo\Horama\src\test\resources
